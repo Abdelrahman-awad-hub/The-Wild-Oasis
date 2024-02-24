@@ -9,6 +9,7 @@ export function useSignup() {
             toast.success(
                 "Account successfully created! please verufy the new account from the user's email address"
             ),
+        retry: false,
     });
 
     return { signup, isLoading };
